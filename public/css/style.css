@@ -1,4 +1,58 @@
 body{
-	background-color: #4A4A4A;
+	background: linear-gradient(pink, lightblue);
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+}
+.nav{
+	/*border-bottom: 1px solid black;*/
+	padding: none;
+	margin: none;
+	background-color: rgba(255,255,255,0.4);
+}
+.nav-link:hover{
+border-bottom: 2px solid black;
+font-style: none;
+text-decoration: none;
+transition: .5s;
+}
+.nav-link{
+border-bottom: 2px solid rgba(0,0,0,0);
+font-style: none;
+text-decoration: none;
+/*transition: .3s;*/
+padding: 10px;
+}
+.nav-link a{
+	text-decoration: none;
+	color: #4B4B4B;
+}
+.active a{
+	text-decoration: none;
+	color: #000000;
+}
+.nav-link a:hover{
+	text-decoration: none;
+	color: #000000;
+}
+.nav-items{
+display: inline-flex;
+font-size: 20pt;
+font-weight: bold;
+}
+.nav-brand{
+	font-weight: bolder;
+	font-size: 20pt;
+	padding: 10px;
+	color: black;
+}
+.land{
+	background-color: rgba(0,0,0,0.3);
+	padding: 50px;
+}
+.land-heading{
+	text-align: center;
+	font-size: 40pt;
+	font-weight: bold;
 	color: white;
 }
